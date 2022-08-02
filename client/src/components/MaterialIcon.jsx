@@ -9,7 +9,6 @@ export default function MaterialIcon(props) {
     if (typeof children === 'string') {
       let initCapChild = children.charAt(0).toUpperCase() + children.slice(1)
       setIconPath(require('@mdi/js')[`mdi${initCapChild}`])
-      console.log(initCapChild)
     }
   }, [children])
 

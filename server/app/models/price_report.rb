@@ -1,0 +1,2 @@
+class PriceReport < ApplicationRecord
+end

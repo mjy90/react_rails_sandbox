@@ -1,0 +1,2 @@
+class VariantTrait < ApplicationRecord
+end
