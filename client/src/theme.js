@@ -4,6 +4,9 @@ const theme = createTheme({
   palette: {
     mode: 'dark',
   },
+  components: {
+
+  },
 });
 
 export default theme
